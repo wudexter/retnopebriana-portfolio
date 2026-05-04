@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retno Pebriana | Network Engineer</title>
+    <meta name="description"
+        content="Portfolio of Retno Pebriana, Network Engineer with 5 years of experience in government infrastructure, routing, switching, and security.">
+
+    <!-- Open Graph for SEO -->
+    <meta property="og:title" content="Retno Pebriana | Network Engineer">
+    <meta property="og:description"
+        content="Portfolio of Retno Pebriana, Network Engineer specializing in routing, switching, and security.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://retnopebriana.com/">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Retno Pebriana",
+      "jobTitle": "Network Engineer",
+      "description": "Network Engineer with 5 years experience in managing routers, switches, servers, and firewalls.",
+      "knowsAbout": ["Routing", "Switching", "Network Security", "Server Management"]
+    }
+    </script>
+
+    <!-- JS -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <a href="#home" class="nav-logo" aria-label="Go to home">Retno.<span>Net</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="nav-menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="container hero-content">
+                <h1 id="hero-title" class="sr-only">Retno Pebriana - Network Engineer</h1>
+
+                <!-- Terminal Component -->
+                <div class="terminal-container" aria-hidden="true">
+                    <div class="terminal-header">
+                        <span class="dot close"></span>
+                        <span class="dot minimize"></span>
+                        <span class="dot expand"></span>
+                        <span class="terminal-title">retno@portfolio:~</span>
+                    </div>
+                    <div class="terminal-body" id="terminal-body">
+                        <!-- Content will be injected by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Hero Text -->
+                <div class="hero-text reveal">
+                    <h2>Building Secure & Reliable Networks</h2>
+                    <p>Network Engineer dengan 5 tahun pengalaman di instansi pemerintah.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                        <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="container reveal">
+                <h2 id="about-title" class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <article class="about-text">
+                        <p>Saya adalah seorang Network Engineer yang berdedikasi dengan 5 tahun pengalaman dalam
+                            merancang, mengimplementasikan, dan mengelola infrastruktur jaringan skala menengah hingga
+                            besar di instansi pemerintah.</p>
+                        <p>Keahlian utama saya mencakup pengelolaan perangkat Cisco, Mikrotik, server Linux/Windows,
+                            serta firewall seperti Fortinet dan Palo Alto untuk memastikan keamanan data dan stabilitas
+                            layanan.</p>
+                    </article>
+                    <aside class="about-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Tahun Pengalaman</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">99.9%</span>
+                            <span class="stat-label">Network Uptime</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills" aria-labelledby="skills-title">
+            <div class="container reveal">
+                <h2 id="skills-title" class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <article class="skill-category">
+                        <h3>Routing & Switching</h3>
+                        <div class="badges">
+                            <span class="badge">Cisco IOS</span>
+                            <span class="badge">MikroTik RouterOS</span>
+                            <span class="badge">OSPF / BGP</span>
+                            <span class="badge">VLAN / STP</span>
+                        </div>
+                    </article>
+                    <article class="skill-category">
+                        <h3>Security & Firewall</h3>
+                        <div class="badges">
+                            <span class="badge">Fortinet FortiGate</span>
+                            <span class="badge">Palo Alto</span>
+                            <span class="badge">VPN (IPsec/SSL)</span>
+                            <span class="badge">IDS/IPS</span>
+                        </div>
+                    </article>
+                    <article class="skill-category">
+                        <h3>Server & Infrastructure</h3>
+                        <div class="badges">
+                            <span class="badge">Linux (Ubuntu/CentOS)</span>
+                            <span class="badge">Windows Server</span>
+                            <span class="badge">VMware ESXi</span>
+                            <span class="badge">Proxmox VE</span>
+                        </div>
+                    </article>
+                    <article class="skill-category">
+                        <h3>Monitoring & Tools</h3>
+                        <div class="badges">
+                            <span class="badge">Zabbix</span>
+                            <span class="badge">PRTG</span>
+                            <span class="badge">Wireshark</span>
+                            <span class="badge">Grafana</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects" aria-labelledby="projects-title">
+            <div class="container reveal">
+                <h2 id="projects-title" class="section-title">Featured Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Migrasi Infrastruktur Jaringan Instansi</h3>
+                            <p>Memimpin migrasi dari arsitektur jaringan flat ke desain hierarkis yang lebih aman
+                                menggunakan VLAN dan inter-VLAN routing, serta implementasi redundansi link.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Cisco Catalyst</span>
+                                <span class="tech-tag">HSRP</span>
+                                <span class="tech-tag">OSPF</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Implementasi Enterprise Firewall & VPN</h3>
+                            <p>Melakukan deployment Fortinet FortiGate untuk mengamankan perimeter jaringan instansi dan
+                                mengkonfigurasi IPsec VPN untuk konektivitas yang aman antar kantor cabang.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Fortinet</span>
+                                <span class="tech-tag">IPsec VPN</span>
+                                <span class="tech-tag">Web Filtering</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Network Monitoring System dengan Zabbix</h3>
+                            <p>Membangun sistem pemantauan proaktif terpusat menggunakan Zabbix dan Grafana untuk lebih
+                                dari 100+ perangkat jaringan dan server, mengurangi waktu respons insiden.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Zabbix</span>
+                                <span class="tech-tag">SNMP</span>
+                                <span class="tech-tag">Linux</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+            <div class="container reveal">
+                <h2 id="contact-title" class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <article class="contact-info">
+                        <h3>Mari berdiskusi!</h3>
+                        <p>Saya terbuka untuk peluang baru dan tantangan dalam infrastruktur jaringan. Silakan hubungi
+                            saya melalui formulir atau kontak di bawah ini.</p>
+                        <address class="contact-details">
+                            <a href="mailto:retno.pebriana@example.com"
+                                class="contact-link">retno.pebriana@example.com</a>
+                            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+                                class="contact-link">LinkedIn Profile</a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                class="contact-link">GitHub Profile</a>
+                        </address>
+                    </article>
+                    <form class="contact-form" aria-label="Contact form" onsubmit="event.preventDefault();">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Retno Pebriana. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
