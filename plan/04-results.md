@@ -11,13 +11,13 @@
 ## Screenshot: Desktop
 
 [paste screenshot — all sections visible] 
-/Desktop.png
+![\assets\Desktop.png](../assets/Desktop.png)
 ---
 
 ## Screenshot: Mobile
 
 [paste screenshot — responsive, no horizontal scroll]
-/Mobile.png
+![as/Mobile.png](../assets/Mobile.png)
 
 ---
 
