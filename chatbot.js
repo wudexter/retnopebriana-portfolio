@@ -70,9 +70,9 @@
      - Teknologi: Zabbix, SNMP, Linux
 
   ## Kontak
-  - Email: retno.pebriana@example.com
-  - LinkedIn: https://linkedin.com/
-  - GitHub: https://github.com/
+  - Email: retno.pebrian56@gmail.com
+  - LinkedIn: https://www.linkedin.com/in/retno-pebriana-46a46468/
+  - GitHub: https://github.com/wudexter
 
   ## Cara Menjawab
   - Selalu ramah, sopan, dan profesional
@@ -175,18 +175,18 @@
      DOM REFERENCES (set after render)
   ───────────────────────────────────────────── */
   let toggleBtn, chatWindow, messagesContainer, inputEl, sendBtn,
-      quickRepliesContainer, badge, iconOpen, iconClose;
+    quickRepliesContainer, badge, iconOpen, iconClose;
 
   function grabRefs() {
-    toggleBtn          = document.getElementById('chatbot-toggle');
-    chatWindow         = document.getElementById('chatbot-window');
-    messagesContainer  = document.getElementById('chatbot-messages');
-    inputEl            = document.getElementById('chatbot-input');
-    sendBtn            = document.getElementById('chatbot-send');
+    toggleBtn = document.getElementById('chatbot-toggle');
+    chatWindow = document.getElementById('chatbot-window');
+    messagesContainer = document.getElementById('chatbot-messages');
+    inputEl = document.getElementById('chatbot-input');
+    sendBtn = document.getElementById('chatbot-send');
     quickRepliesContainer = document.getElementById('chatbot-quick-replies');
-    badge              = document.getElementById('chatbot-badge');
-    iconOpen           = document.getElementById('chatbot-icon-open');
-    iconClose          = document.getElementById('chatbot-icon-close');
+    badge = document.getElementById('chatbot-badge');
+    iconOpen = document.getElementById('chatbot-icon-open');
+    iconClose = document.getElementById('chatbot-icon-close');
   }
 
   /* ─────────────────────────────────────────────
